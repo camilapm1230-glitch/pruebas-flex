@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    width: 800px;
+    height: 700px;
+    outline: 2px solid rgb(0, 0, 0) ;
+}
+
+.franja-horario{
+    display: flex;
+    outline: 1px solid black;
+    flex-direction: column-reverse;
+}
+
+.hora{
+    box-sizing: border-box;
+    height: 200px;
+    outline: 1px dashed black;
+    padding: 80px 20px 20px 20px;
+}
